@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+    <prefList key="CommentViewer.Columns.Order">
+        <String>Время начала</String>
+        <String>Время окончания</String>
+        <String>Слой</String>
+        <String>Инициалы</String>
+        <String>Комментарий</String>
+        <String>Ветка</String>
+        <String>Отправитель</String>
+        <String>Получатель</String>
+        <String>Дата создания</String>
+        <String>Дата изменения</String>
+    </prefList>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">654,600</Object>
+    </pref>
+    <pref key="ActiveRecognizerName">
+        <String>BAS - WebMAUS Basic</String>
+    </pref>
+    <pref key="FrameLocation">
+        <Object class="java.awt.Point">802,163</Object>
+    </pref>
+    <pref key="LayoutManager.SelectedTabIndex">
+        <Int>3</Int>
+    </pref>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
+    <pref key="SelectionBeginTime">
+        <Long>898710</Long>
+    </pref>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>pos@sui2008f</String>
+    </pref>
+    <prefGroup key="BAS - WebMAUS Basic">
+        <pref key="LANGUAGE">
+            <String>deu-DE</String>
+        </pref>
+        <prefGroup key="TierUrl"/>
+        <pref key="SignalParamName">
+            <String>SIGNAL</String>
+        </pref>
+        <pref key="ServiceName">
+            <String>runMAUSBasic</String>
+        </pref>
+        <pref key="TextParamName">
+            <String>TEXT</String>
+        </pref>
+    </prefGroup>
+    <pref key="TimeScaleBeginTime">
+        <Long>897040</Long>
+    </pref>
+    <pref key="MediaTime">
+        <Long>898710</Long>
+    </pref>
+    <pref key="SelectionEndTime">
+        <Long>898710</Long>
+    </pref>
+    <prefGroup key="TierColors">
+        <pref key="gestType@esu2009f">
+            <Object class="java.awt.Color">0,90,160</Object>
+        </pref>
+        <pref key="gestType@sui2008f">
+            <Object class="java.awt.Color">0,0,90</Object>
+        </pref>
+        <pref key="default">
+            <Object class="java.awt.Color">90,0,160</Object>
+        </pref>
+        <pref key="gestures@sui2008f">
+            <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="gestures@esu2009f">
+            <Object class="java.awt.Color">90,160,90</Object>
+        </pref>
+        <pref key="text@esu2009f">
+            <Object class="java.awt.Color">160,90,0</Object>
+        </pref>
+        <pref key="text@sui2008f">
+            <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+    </prefGroup>
+    <prefList key="MultiTierViewer.TierOrder">
+        <String>default</String>
+        <String>text@esu2009f</String>
+        <String>text@sui2008f</String>
+        <String>gestures@esu2009f</String>
+        <String>gestMeaning@esu2009f</String>
+        <String>gestures@sui2008f</String>
+        <String>gestMeaning@sui2008f</String>
+        <String>gestType@esu2009f</String>
+        <String>gestType@sui2008f</String>
+        <String>gestBody@esu2009f</String>
+        <String>gestBody@sui2008f</String>
+        <String>gestHead@esu2009f</String>
+        <String>gestHead@sui2008f</String>
+        <String>gestArms@esu2009f</String>
+        <String>gestArms@sui2008f</String>
+        <String>gestHands@sui2008f</String>
+        <String>gestHands@esu2009f</String>
+        <String>gestFingers@sui2008f</String>
+        <String>gestFingers@esu2009f</String>
+        <String>gestComment@sui2008f</String>
+        <String>words@esu2009f</String>
+        <String>pos@esu2009f</String>
+        <String>words@sui2008f</String>
+        <String>pos@sui2008f</String>
+        <String>comment@sui2008f</String>
+        <String>comment@esu2009f</String>
+    </prefList>
+    <pref key="LayoutManager.SplitPaneDividerLocation">
+        <Int>2</Int>
+    </pref>
+    <pref key="LayoutManager.CurrentMode">
+        <Int>1</Int>
+    </pref>
+    <prefGroup key="CommentViewer.Columns">
+        <pref key="Ветка">
+            <Int>75</Int>
+        </pref>
+        <pref key="Слой">
+            <Int>75</Int>
+        </pref>
+        <pref key="Инициалы">
+            <Int>75</Int>
+        </pref>
+        <pref key="Время окончания">
+            <Int>75</Int>
+        </pref>
+        <pref key="Дата создания">
+            <Int>75</Int>
+        </pref>
+        <pref key="Время начала">
+            <Int>75</Int>
+        </pref>
+        <pref key="Отправитель">
+            <Int>0</Int>
+        </pref>
+        <pref key="Получатель">
+            <Int>0</Int>
+        </pref>
+        <pref key="Дата изменения">
+            <Int>75</Int>
+        </pref>
+        <pref key="Комментарий">
+            <Int>75</Int>
+        </pref>
+    </prefGroup>
+    <prefList key="CommentViewer.Columns.Hidden">
+        <String>Отправитель</String>
+        <String>Получатель</String>
+    </prefList>
+</preferences>
